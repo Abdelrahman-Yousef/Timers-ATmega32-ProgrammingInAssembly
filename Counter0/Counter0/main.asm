@@ -1,0 +1,36 @@
+;
+; Counter0.asm
+;
+; Created: 7/27/2023 5:32:48 PM
+; Author : Options
+;
+
+
+; Replace with your application code
+
+.ORG 0x00
+
+MAIN:
+CBI DDRB,PB0
+LDI R20,0xFF
+OUT DDRC,R20
+OUT DDRA,R20
+
+LDI R20,0x8
+OUT OCR0,R20
+LDI R20,0x0A
+OUT TCCR0,R20
+
+NOP
+NOP
+NOP
+
+LDI R20,0x7
+OUT TCNT0,R20
+
+AGAIN:
+IN R20,TCNT0
+OUT PORTC,R20
+IN R20,TIFR
+OUT PORTA,R20
+RJMP AGAIN

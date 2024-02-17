@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\Options\Documents\Atmel Studio\7.0\Counter0\Counter0\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Options\Documents\Atmel Studio\7.0\Counter0\Counter0\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Options\Documents\Atmel Studio\7.0\Counter0\Counter0\Debug\Counter0.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Counter0.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Counter0.map</FILE>
+  <FILE>Counter0.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Options\Documents\Atmel Studio\7.0\Counter0\Counter0\main.asm</FILE><LINE>13</LINE></MAIN>
+  <AGAIN><FILE>C:\Users\Options\Documents\Atmel Studio\7.0\Counter0\Counter0\main.asm</FILE><LINE>31</LINE></AGAIN>
+ </LABELS>
+</ASSEMBLER_INFO>
